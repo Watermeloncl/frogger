@@ -1,8 +1,24 @@
 .back {
-    background-color: green;
     width: 1500px;
     height: 800px;
     position: fixed;
+    z-index: -10;
+}
+.ground {
+    width: 1500px;
+    height: 800px;
+    position: absolute;
+    background-color: green;
+    z-index: -2;
+}
+
+.sideCover {
+    width: 200px;
+    height: 800px;
+    position: absolute;
+    left: 1500px;
+    background-color: white;
+    z-index: 10;
 }
 
 .frog {
@@ -32,13 +48,6 @@
     height: 100px;
 }
 
-.canal {
-    background-color: blue;
-    width: 1500px;
-    height: 100px;
-    position: absolute;
-}
-
 .car {
     width: 100px;
     height: 100px;
@@ -46,68 +55,130 @@
 }
 
 .carOne {
-    top: 600px;
-    left: 500px;
+    bottom: 100px;
+    left: 800px;
     z-index: 2;
 }
 
 .carTwo {
-    top: 500px;
+    bottom: 200px;
     left: 1200px;
     transform: rotate(180deg);
     z-index: 2;
 }
 
 .carThree {
-    top: 600px;
-    left: 1000px;
+    bottom: 100px;
+    left: 1300px;
     z-index: 2;
 }
 
 .carFour {
-    top: 500px;
+    bottom: 200px;
     left: 200px;
     transform: rotate(180deg);
     z-index: 2;
 }
 
 .carFive {
-    top: 500px;
-    left: 500px;
+    bottom: 200px;
+    left: 800px;
     z-index: 2;
-    height: 90px
-}
-
-.carSix {
-    top: 600px;
-    left: 300px;
-    z-index: 2;
-    height: 90px;
     transform: rotate(180deg);
 }
 
-.canalOne {
+.carSix {
+    bottom: 100px;
+    left: 300px;
+    z-index: 2;
+}
+
+.carSeven {
+    bottom: 400px;
+    left: 100px;
+    z-index: 2;
+    height: 90px;
+}
+
+.carEight {
+    bottom: 400px;
+    left: 650px;
+    z-index: 2;
+    height: 90px;
+}
+
+.carNine {
+    bottom: 400px;
+    left: 1100px;
+    z-index: 2;
+    height: 90px;
+}
+
+.carTen {
+    bottom: 500px;
+    left: 200px;
+    z-index: 2;
+}
+
+.carEleven {
+    bottom: 500px;
+    left: 750px;
+    z-index: 2;
+}
+
+.carTwelve {
+    bottom: 500px;
+    left: 1000px;
+    z-index: 2;
+}
+
+.carThirteen {
+    bottom: 600px;
+    left: 400px;
+    z-index: 2;
+    height: 90px;
+}
+
+.carFourteen {
+    bottom: 600px;
+    left: 800px;
+    z-index: 2;
+    height: 90px;
+}
+
+.carFifteen {
+    bottom: 600px;
+    left: 1300px;
+    z-index: 2;
+    height: 90px;
+}
+
+.streetThree {
     top: 300px;
-    border-bottom: brown 5px groove;
+    border-top: dashed 10px yellow;
+    z-index: 0;
 }
 
-.canalTwo {
+.streetFour {
     top: 200px;
+    border-top: dashed 10px yellow;
+    z-index: 0;
 }
 
-.canalThree {
+.streetFive {
     top: 100px;
-    border-top: brown 5px groove;
+    z-index: -1;
 }
 
 .streetOne {
     top: 590px;
     border-top: dashed 10px yellow;
-    z-index: 1;
+    z-index: 0;
 }
 
 .streetTwo {
     top: 500px;
+    z-index: -1;
 }
 
 .goalOne {
@@ -128,4 +199,59 @@
 
 .goalFive {
     left: 1300px;
+}
+
+.startFrame {
+    width: 300px;
+    height: 200px;
+    position: absolute;
+    z-index: 5;
+    top: 300px;
+    left: 600px;
+    background-color: rgba($color: #00ff00, $alpha: 0.5);
+    border: solid 2px green;
+}
+
+.endFrame {
+    width: 300px;
+    height: 200px;
+    position: absolute;
+    z-index: -5;
+    top: 300px;
+    left: 600px;
+    background-color: rgba($color: blue, $alpha: 0.5);
+    border: solid 2px blue;
+}
+
+.startButton {
+    width: 100px;
+    height: 50px;
+    position: absolute;
+    top: 375px;;
+    left: 700px;
+    z-index: 6;
+    background-color: #00ff00;
+    border: none;
+}
+
+.restartButton {
+    width: 100px;
+    height: 50px;
+    position: absolute;
+    top: 375px;;
+    left: 700px;
+    z-index: -6;
+    background-color: #00ff00;
+    border: none;
+}
+
+.endText {
+    font-size: 35px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    z-index: -6;
+    position: absolute;
+    left: 680px;
+    top: 315px;
+    color: rgb(0,255,0);
 }
