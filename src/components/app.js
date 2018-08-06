@@ -491,7 +491,7 @@ export default class App extends Component {
       <div id="0" className="back">
         <div id="-1" className="ground"></div>
         <div id="-2" className="sideCover"></div>
-        <div><img id="1" className="frog" src="https://www.classicgaming.cc/classics/frogger/images/icons/icon-frogger-pixel-512x512.png"></img></div>
+        <div><img id="1" className="frog" src="https://frogger.nyc3.digitaloceanspaces.com/icon-frogger-pixel-512x512.png"></img></div>
         <div id="17" className="goalOne box"></div>
         <div id="18" className="goalTwo box"></div>
         <div id="19" className="goalThree box"></div>
@@ -502,24 +502,24 @@ export default class App extends Component {
         <div id="24" className="street streetThree"></div>
         <div id="25" className="street streetFour"></div>
         <div id="26" className="street streetFive"></div>
-        <div><img id="2" className="car carOne" src="https://www.classicgaming.cc/classics/frogger/images/icons/icon-frogger-pixel-car-128x128.png"></img></div>
-        <div><img id="3" className="car carTwo" src="https://www.classicgaming.cc/classics/frogger/images/icons/icon-frogger-pixel-car-128x128.png"></img></div>
-        <div><img id="4" className="car carThree" src="https://www.classicgaming.cc/classics/frogger/images/icons/icon-frogger-pixel-car-128x128.png"></img></div>
-        <div><img id="5" className="car carFour" src="https://www.classicgaming.cc/classics/frogger/images/icons/icon-frogger-pixel-car-128x128.png"></img></div>
-        <div><img id="6" className="car carFive" src="https://www.classicgaming.cc/classics/frogger/images/icons/icon-frogger-pixel-car-128x128.png"></img></div>
-        <div><img id="7" className="car carSix" src="https://www.classicgaming.cc/classics/frogger/images/icons/icon-frogger-pixel-car-128x128.png"></img></div>
+        <div><img id="2" className="car carOne" src="https://frogger.nyc3.digitaloceanspaces.com/icon-frogger-pixel-car-128x128.png"></img></div>
+        <div><img id="3" className="car carTwo" src="https://frogger.nyc3.digitaloceanspaces.com/icon-frogger-pixel-car-128x128.png"></img></div>
+        <div><img id="4" className="car carThree" src="https://frogger.nyc3.digitaloceanspaces.com/icon-frogger-pixel-car-128x128.png"></img></div>
+        <div><img id="5" className="car carFour" src="https://frogger.nyc3.digitaloceanspaces.com/icon-frogger-pixel-car-128x128.png"></img></div>
+        <div><img id="6" className="car carFive" src="https://frogger.nyc3.digitaloceanspaces.com/icon-frogger-pixel-car-128x128.png"></img></div>
+        <div><img id="7" className="car carSix" src="https://frogger.nyc3.digitaloceanspaces.com/icon-frogger-pixel-car-128x128.png"></img></div>
 
-        <div><img id="8" className="car carSeven" src="https://www.classicgaming.cc/classics/frogger/images/icons/icon-frogger-pixel-racing-car-128x128.png"></img></div>
-        <div><img id="9" className="car carEight" src="https://www.classicgaming.cc/classics/frogger/images/icons/icon-frogger-pixel-racing-car-128x128.png"></img></div>
-        <div><img id="10" className="car carNine" src="https://www.classicgaming.cc/classics/frogger/images/icons/icon-frogger-pixel-racing-car-128x128.png"></img></div>
+        <div><img id="8" className="car carSeven" src="https://frogger.nyc3.digitaloceanspaces.com/icon-frogger-pixel-racing-car-128x128.png"></img></div>
+        <div><img id="9" className="car carEight" src="https://frogger.nyc3.digitaloceanspaces.com/icon-frogger-pixel-racing-car-128x128.png"></img></div>
+        <div><img id="10" className="car carNine" src="https://frogger.nyc3.digitaloceanspaces.com/icon-frogger-pixel-racing-car-128x128.png"></img></div>
 
-        <div><img id="11" className="car carTen" src="https://www.classicgaming.cc/classics/frogger/images/icons/icon-frogger-pixel-car-128x128.png"></img></div>
-        <div><img id="12" className="car carEleven" src="https://www.classicgaming.cc/classics/frogger/images/icons/icon-frogger-pixel-car-128x128.png"></img></div>
-        <div><img id="13" className="car carTwelve" src="https://www.classicgaming.cc/classics/frogger/images/icons/icon-frogger-pixel-car-128x128.png"></img></div>
+        <div><img id="11" className="car carTen" src="https://frogger.nyc3.digitaloceanspaces.com/icon-frogger-pixel-car-128x128.png"></img></div>
+        <div><img id="12" className="car carEleven" src="https://frogger.nyc3.digitaloceanspaces.com/icon-frogger-pixel-car-128x128.png"></img></div>
+        <div><img id="13" className="car carTwelve" src="https://frogger.nyc3.digitaloceanspaces.com/icon-frogger-pixel-car-128x128.png"></img></div>
 
-        <div><img id="14" className="car carThirteen" src="https://www.classicgaming.cc/classics/frogger/images/icons/icon-frogger-pixel-racing-car-128x128.png"></img></div>
-        <div><img id="15" className="car carFourteen" src="https://www.classicgaming.cc/classics/frogger/images/icons/icon-frogger-pixel-racing-car-128x128.png"></img></div>
-        <div><img id="16" className="car carFifteen" src="https://www.classicgaming.cc/classics/frogger/images/icons/icon-frogger-pixel-racing-car-128x128.png"></img></div>
+        <div><img id="14" className="car carThirteen" src="https://frogger.nyc3.digitaloceanspaces.com/icon-frogger-pixel-racing-car-128x128.png"></img></div>
+        <div><img id="15" className="car carFourteen" src="https://frogger.nyc3.digitaloceanspaces.com/icon-frogger-pixel-racing-car-128x128.png"></img></div>
+        <div><img id="16" className="car carFifteen" src="https://frogger.nyc3.digitaloceanspaces.com/icon-frogger-pixel-racing-car-128x128.png"></img></div>
 
         <div id="27" className="startFrame"></div>
         <button onClick={() =>start()} id="28" className="startButton">Start!</button>
